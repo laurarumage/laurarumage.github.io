@@ -3,6 +3,9 @@
   <title>Sir Digby Chicken Caesar</title>
 </head>
 <body>
+<nav>
+  <a href="related-website-observations.html">Related Website Observations</a>
+</nav>
 <h1>Sir Digby Chicken Caesar</h1>
 
 <section>
@@ -42,28 +45,30 @@
     <img width="400px" src="http://cdn.patch.com/users/139821/2012/08/T800x600/3ed4c3c1457de595d48f0958197e2415.jpg">
     <figcaption>Digby's Internet-famous photo</figcaption >
   </figure>
-</section>
-
-<section>
-  <h2>Related website observations</h2>
-<p>I chose a <a href="http://thebark.com/content/things-i-love-about-my-dog" target="_blank">similar web page from The Bark</a>, a dog magazine. The page is an article listing things the author loves about her dog.</p>
-
-<p>This page has both good and bad qualities:</p>
-<ul>
-  <li>Good:</li>
-  <ol>
-    <li>The author is talking about dogs, and dogs are wonderful.</li>
-    <li>The ordered list on the page is set up properly with a list tag, specifically &#60ol&#62.</li>
-    <li>Each item on the ordered list mentioned above is created as a distinct list item using the semantic tag &#60li&#62.</li>
-  </ol>
-  <li>Bad:</li>
-  <ol>
-    <li>I think the page's main navigation should have been contained in a semantic &#60nav&#62 tag. The navigation is actually setup as a table.</li>
-    <li>In researching where the navigation table mentioned above begins, I also determined that the entire visible web page is contained within a table! It is interesting to still see a website with table layout while table-less design is widely favored these days. Tables were never intended as a layout tool--tables were intended for the display of tabular data!</li>
-    <li>The article does not use header tags to semantically define header content. What should be created as the &#60h1&#62 tag has been created as a div with a class assignment to provide meaning.</li>
-  </ol>
-</ul>
-<p>Overall, there are some areas that this web page could improve, namely in the area of including more semantic tags to provide additional meaning to the content.</p>
+  <form action="forms/contact-success.html" method="post">
+    <fieldset>
+      <h3>Press Inquiries</h3>
+      <div>
+        <label>Your name:</label>
+        <input type="text" name="your-name">
+      </div>
+      <div>
+        <label>Your email:</label>
+        <input type="email" name="your-email">
+      </div>
+      <div>
+        <label>Reason for contact:</label>
+        <select name="reason-for-contact">
+          <option value="none"></option>
+          <option value="interview">Interview</option>
+          <option value="photo-shoot">Photo shoot</option>
+          <option value="kibble-endorsement">Kibble endorsement</option>
+        </select>
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+    </fieldset>
+  </form>
 </section>
 </body>
 </html>
