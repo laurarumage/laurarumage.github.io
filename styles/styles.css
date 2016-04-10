@@ -8,7 +8,7 @@ main {
 
 nav {
   margin: 25px;
-  background-color: orange;
+  background-color: #F77158;
   padding: 1px;
 }
 
@@ -31,6 +31,10 @@ li {
   padding-top: 5px;
 }
 
+h1 {
+  color: #294A80;
+}
+
 img {
   max-width: 600px;
 }
@@ -39,6 +43,7 @@ img {
   display: inline-block;
   vertical-align: top;
   width: 60%;
+  margin-right: 10px;
 }
 
 .cover {
@@ -53,24 +58,29 @@ aside {
   width: 30%;
   border: solid;
   border-width: 2px;
-  border-color: hotpink;
+  border-color: #31BCC3;
   padding: 20px;
   margin-top: 20px;
-  margin-left: 20px;
 }
 
 a {
-  color: slateblue;
+  color: #294A80;
+}
+
+a:visited {
+  color: #2FC4C8;
+}
+
+nav a:visited {
+  color: white;
 }
 
 fieldset {
-  border-color: aqua;
-  width: 90%;
-}
-
-#press-form {
   margin: 35px;
-  width: 100%;
+  width: 90%;
+  background: url(http://www.oraclescm.com/images/colorful.jpg);
+  color: white;
+  border-color: #31BCC3;
 }
 
 .comparison {
@@ -94,4 +104,10 @@ fieldset {
 
 figcaption {
   font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  font-family: "Courier New", Courier, monospace;
 }
