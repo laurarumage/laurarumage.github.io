@@ -1,3 +1,97 @@
 body {
-  background: blue;
+  font-family: Helvetica, sans-serif;
+}
+
+main {
+  margin: 40px;
+}
+
+nav {
+  margin: 25px;
+  background-color: orange;
+  padding: 1px;
+}
+
+nav a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 2px;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+li {
+  padding-top: 5px;
+}
+
+img {
+  max-width: 600px;
+}
+
+.intro {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+
+.cover {
+  max-width: 100%;
+  margin: 0px;
+
+}
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  border: solid;
+  border-width: 2px;
+  border-color: hotpink;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+a {
+  color: slateblue;
+}
+
+fieldset {
+  border-color: aqua;
+  width: 90%;
+}
+
+#press-form {
+  margin: 35px;
+  width: 100%;
+}
+
+.comparison {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin: 10px;
+}
+
+.list-header {
+  font-weight: bold;
+  text-decoration: underline;
+  list-style-type: none;
+}
+
+.screenshot {
+  border-style: solid;
+  border-width: 1px;
+  max-width: 300px;
+}
+
+figcaption {
+  font-size: 13px;
 }
