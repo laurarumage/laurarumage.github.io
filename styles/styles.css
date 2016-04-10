@@ -36,7 +36,7 @@ h1 {
 }
 
 img {
-  max-width: 600px;
+  max-width: 80%;
 }
 
 .intro {
@@ -110,4 +110,10 @@ footer {
   text-align: center;
   font-size: 13px;
   font-family: "Courier New", Courier, monospace;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: smaller;
+  }
 }
